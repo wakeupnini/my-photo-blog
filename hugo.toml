@@ -1,4 +1,6 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://iridescent-duckanoo-9d962e.netlify.app/"
+relativeURLs = true
+canonifyURLs = true
 languageCode = "zh-cn"
 title = "L1mfilm"
 theme = "PaperMod"
@@ -16,7 +18,7 @@ imageHeight = 280
 
 [menu]
   [[menu.main]]
-    name = "作品集"
-    url = "/works/"
-    weight = 1
+name = "作品集"
+pageRef = "works"
+
 

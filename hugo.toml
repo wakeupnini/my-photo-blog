@@ -1,0 +1,22 @@
+baseURL = "http://localhost:1313/"
+languageCode = "zh-cn"
+title = "L1mfilm"
+theme = "PaperMod"
+
+[params]
+
+[params.profileMode]
+enabled = true
+title = "L1mfilm"
+subtitle = "Photography Portfolio"
+imageUrl = "/images/avatar-new.jpg"
+imageTitle = "avatar"
+imageWidth = 280
+imageHeight = 280
+
+[menu]
+  [[menu.main]]
+    name = "作品集"
+    url = "/works/"
+    weight = 1
+
